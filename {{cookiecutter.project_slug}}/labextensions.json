@@ -1,0 +1,6 @@
+{
+  "@yudai-nkt/jupyterlab_city-lights-theme": "^0.3.0",
+  "@jupyterlab/toc": "^2.0.0",
+  "@jupyter-widgets/jupyterlab-manager": "^1.1.0",
+  "@ryantam626/jupyterlab_code_formatter": "~1.1.0"
+}

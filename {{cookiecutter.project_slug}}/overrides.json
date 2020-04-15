@@ -1,0 +1,23 @@
+{
+  "@jupyterlab/apputils-extension:themes": {
+    "theme": "City Lights"
+  },
+  "@jupyterlab/shortcuts-extension:shortcuts": {
+    "shortcuts": [
+      {
+        "command": "runmenu:restart-and-run-all",
+        "keys": [
+          "Ctrl Shift L"
+        ],
+        "selector": "[data-jp-code-runner]"
+      }
+    ]
+  },
+  "@ryantam626/jupyterlab_code_formatter:settings": {
+    "preferences": {
+      "default_formatter": {
+        "python": "isort"
+      }
+    }
+  }
+}

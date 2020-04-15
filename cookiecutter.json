@@ -1,0 +1,11 @@
+{
+  "author": "Your name",
+  "email": "you@example.com",
+  "project_name": "Name of the project",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "description": "A short description of the project",
+  "version": "0.1.0",
+  "_extensions": [
+    "jinja2_time.TimeExtension"
+  ]
+}

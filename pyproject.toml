@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "cookiecutter-jupyterlab"
+version = "0.1.0"
+description = ""
+authors = ["Yudai Nakata<yudai.nkt@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = '^3.6.1'
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+flake8 = "^3.7.9"
