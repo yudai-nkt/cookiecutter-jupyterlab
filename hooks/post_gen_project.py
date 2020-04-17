@@ -1,6 +1,14 @@
 import json
 import shutil
 import subprocess
+import sys
+
+
+if shutil.which("poetry") is None:
+    sys.stderr.write(
+        "Poetry is required, but not installed. Abort project generation.\n"
+    )
+    sys.exit(1)
 
 
 def exec(command, **kwargs):
